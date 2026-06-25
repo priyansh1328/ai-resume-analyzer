@@ -22,7 +22,7 @@ export default function Home() {
 
     try {
       const res = await axios.post(
-        "http://localhost:8000/api/analyze",
+  "https://ai-resume-analyzer-yxmc.onrender.com/api/analyze",
         formData,
         { headers: { "Content-Type": "multipart/form-data" } }
       );

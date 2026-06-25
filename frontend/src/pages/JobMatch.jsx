@@ -24,7 +24,7 @@ export default function JobMatch() {
 
     try {
       const res = await axios.post(
-        "http://localhost:8000/api/match",
+  "https://ai-resume-analyzer-yxmc.onrender.com/api/match",
         formData,
         { headers: { "Content-Type": "multipart/form-data" } }
       );
